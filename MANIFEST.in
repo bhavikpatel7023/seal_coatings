@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include seal_coating *.css
+recursive-include seal_coating *.csv
+recursive-include seal_coating *.html
+recursive-include seal_coating *.ico
+recursive-include seal_coating *.js
+recursive-include seal_coating *.json
+recursive-include seal_coating *.md
+recursive-include seal_coating *.png
+recursive-include seal_coating *.py
+recursive-include seal_coating *.svg
+recursive-include seal_coating *.txt
+recursive-exclude seal_coating *.pyc
